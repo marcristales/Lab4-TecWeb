@@ -20,7 +20,7 @@ body {
 .eye1 {
     width: 20px;
     height: 45px;
-    margin-left: -10px;
+    margin-left: -5px;
     margin-top: 0px;
     background-color: black;
     border-radius: 100%;
@@ -29,7 +29,7 @@ body {
 .eye2 {
     width: 20px;
     height: 45px;
-    margin-left: -75px;
+    margin-left: -80px;
     margin-top: 0px;
     background-color: black;
     border-radius: 100%;
@@ -56,7 +56,7 @@ body {
     transform: rotate(255deg);
 }
 
-.left-hair {
+.hair {
     width: 10px;
     height: 40px;
     margin-left: -240px;
@@ -66,7 +66,7 @@ body {
     border-radius: 100px / 190px 100px 120px 170px;
     transform: rotate(355deg);
 }
-.left-hair2 {
+.hair2 {
     width: 75px;
     height: 75px;
     margin-left: -260px;
@@ -75,7 +75,7 @@ body {
     border-radius: 100px / 120px 0px 130px 100px;
     transform: rotate(350deg);
 }
-.left-hair3 {
+.hair3 {
     width: 35px;
     height: 80px;
     margin-left: -220px;
@@ -84,7 +84,7 @@ body {
     border-radius: 100%;
     transform: rotate(1deg);
 }
-.left-hair4 {
+.hair4 {
     width: 60px;
     height: 65px;
     margin-left: -215px;
@@ -93,7 +93,7 @@ body {
     border-radius: 100px /20px 0px 150px 100px;
     transform: rotate(357deg);
 }
-.left-hair5 {
+.hair5 {
     width: 30px;
     height: 50px;
     margin-left: -105px;
@@ -102,7 +102,7 @@ body {
     border-radius: 60px / 10px 0px 100px 100px;
     transform: rotate(20deg);
 }
-.left-hair6 {
+.hair6 {
     width: 35px;
     height: 60px;
     margin-left: -85px;
@@ -111,7 +111,7 @@ body {
     border-radius: 70px / 200px 200px 0px 20px;
     transform: rotate(205deg);
 }
-.left-hair7 {
+.hair7 {
     width: 30px;
     height: 45px;
     margin-left: -60px;
@@ -156,3 +156,93 @@ body {
     border-radius: 160px / 70px 40px 60px 60px;
     transform: rotate(340deg);
 }
+/* shirt */
+.shirt {
+    width: 220px;
+    height: 220px;
+    margin-left: -250px;
+    margin-top: -70px;
+    background-color: #ffdc28;
+    border-radius: 100px / 100px 100px 30px 40px;
+    transform: rotate(350deg);
+}
+.stripe1 {
+    width: 175px;
+    height: 25px;
+    margin-left: -65px;
+    margin-top: 60px;
+    border-color: #436ab2;
+    background: #436ab2;
+    border-radius: 120px / 10px 0px 0px 0px;
+    transform: rotate(deg);
+}
+.curve1 {
+    width: 70px;
+    height: 30px;
+    margin-left: -132px;
+    margin-top: -8px;
+    border-color: #436ab2;
+    background: #436ab2;
+    border-radius: 80px / 20px 0px 20px 10px;
+    transform: rotate(357deg);
+}
+.stripe2 {
+    width: 170px;
+    height: 26px;
+    margin-left: -60px;
+    margin-top: 8px;
+    background: #436ab2;
+    border-radius: 120px / 4px 0px 0px 0px;
+    transform: rotate(358deg);
+}
+.curve2 {
+    width: 70px;
+    height: 30px;
+    margin-left: -135px;
+    margin-top: -12px;
+    background: #436ab2;
+    border-radius: 80px / 20px 0px 50px 0px;
+}
+.curve3 {
+    width: 150px;
+    height: 20px;
+    margin-left: -137px;
+    margin-top: 10px;
+    background: #ffdc28;
+    border-radius: 50% / 60% 60% 0 0;
+}
+.stripe3 {
+    width: 130px;
+    height: 25px;
+    margin-left: -21px;
+    margin-top: -38px;
+    background: #436ab2;
+    border-radius: 80px / 0px 5px 0px 0px;
+    transform: rotate(358deg);
+}
+.curve4 {
+    width: 100px;
+    height: 40px;
+    margin-left: -155px;
+    margin-top: -14px;
+    background: #436ab2;
+    border-radius: 80px / 20px 3px 0px 0px;
+}
+.curve5 {
+    width: 150px;
+    height: 20px;
+    margin-left: -155px;
+    margin-top: 8px;
+    background: #ffdc28;
+    border-radius: 50% / 60% 60% 0 0;
+}
+.bottom {
+    width: 200px;
+    height: 30px;
+    margin-left: -108px;
+    margin-top: 80px;
+    background-color: #1e4980;
+    border-radius: 50% / 50% 50% 40% 40%;
+    transform: rotate(deg);
+}
+/* final shirt */
