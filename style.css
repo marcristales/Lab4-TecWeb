@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: black;
 }
 
 .main div {
@@ -12,7 +12,7 @@ body {
     width: 210px;
     height: 215px;
     margin-left: -230px;
-    margin-top: -220px;
+    margin-top: -230px;
     background-color: #fddbb7;
     border-radius: 300px / 270px 210px 190px 130px;
     transform: rotate(195deg);
@@ -50,7 +50,7 @@ body {
     width: 90px;
     height: 70px;
     margin-left: -280px;
-    margin-top: -180px;
+    margin-top: -190px;
     background-color: #fddbb7;
     border-radius: 200px / 220px 150px 160px 200px;
     transform: rotate(255deg);
@@ -60,7 +60,7 @@ body {
     width: 10px;
     height: 40px;
     margin-left: -240px;
-    margin-top: -115px;
+    margin-top: -125px;
     background-color: black;
     border-color:#000 transparent transparent transparent;
     border-radius: 100px / 190px 100px 120px 170px;
@@ -70,7 +70,7 @@ body {
     width: 75px;
     height: 75px;
     margin-left: -260px;
-    margin-top: -214px;
+    margin-top: -224px;
     background-color: black;
     border-radius: 100px / 120px 0px 130px 100px;
     transform: rotate(350deg);
@@ -79,7 +79,7 @@ body {
     width: 35px;
     height: 80px;
     margin-left: -220px;
-    margin-top: -210px;
+    margin-top: -220px;
     background-color: black;
     border-radius: 100%;
     transform: rotate(1deg);
@@ -88,7 +88,7 @@ body {
     width: 60px;
     height: 65px;
     margin-left: -215px;
-    margin-top: -220px;
+    margin-top: -230px;
     background-color: black;
     border-radius: 100px /20px 0px 150px 100px;
     transform: rotate(357deg);
@@ -97,7 +97,7 @@ body {
     width: 30px;
     height: 50px;
     margin-left: -105px;
-    margin-top: -214px;
+    margin-top: -224px;
     background-color: black;
     border-radius: 60px / 10px 0px 100px 100px;
     transform: rotate(20deg);
@@ -106,7 +106,7 @@ body {
     width: 35px;
     height: 60px;
     margin-left: -85px;
-    margin-top: -203px;
+    margin-top: -213px;
     background-color: black;
     border-radius: 70px / 200px 200px 0px 20px;
     transform: rotate(205deg);
@@ -115,7 +115,7 @@ body {
     width: 30px;
     height: 45px;
     margin-left: -60px;
-    margin-top: -192px;
+    margin-top: -202px;
     background-color: black;
     border-radius: 100px / 190px 200px 0px 130px;
     transform: rotate(210deg);
@@ -124,7 +124,7 @@ body {
     width: 249px;
     height: 200px;
     margin-left: -250px;
-    margin-top: -290px;
+    margin-top: -300px;
     background-color: #fe1a1b;
     border-radius: 150px / 140px 150px 100px 100px;
     transform: rotate(10deg);
@@ -133,7 +133,7 @@ body {
     width: 40px;
     height: 30px;
     margin-left: -130px;
-    margin-top: -294px;
+    margin-top: -304px;
     background-color: white;
     border-radius: 150px / 100px;
     transform: rotate(10deg);
@@ -142,7 +142,7 @@ body {
     width: 190px;
     height: 80px;
     margin-left: -185px;
-    margin-top: -25px;
+    margin-top: -35px;
     background-color: #436ab2;
     border-radius: 160px / 80px 70px 0px 60px;
     transform: rotate(345deg);
@@ -275,7 +275,35 @@ body {
     border-radius: 100px / 30px 150px 20px 40px;
     transform: rotate(0deg);
 }
-
+.strap1 {
+    width: 80px; 
+    height: 100px;  
+    margin-left: -155px;
+    margin-top: -60px;
+    border: solid 20px #954e0d;
+    border-color: #954e0d transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(50deg);
+}
+.buckle {
+    width: 15px; 
+    height: 15px;  
+    margin-left: -71px;
+    margin-top: -50px;
+    border: solid 5px #cec8c4;
+    border-color: #cec8c4 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(145deg);
+}
+.strap2 {
+    width: 50px; 
+    height: 30px;  
+    margin-left: -270px;
+    margin-top: -5px;
+    background: #954e0d;
+    border-radius: 50%/ 100px 100px 10px 10px;
+    transform: rotate(90deg);
+}
 /* right arm */
 .sleeveR {
     width: 90px;
@@ -424,11 +452,11 @@ body {
 .finger3R {
     width: 20px;
     height: 40px;
-    margin-left: -95px;
-    margin-top: 45px;
+    margin-left: -90px;
+    margin-top: 43px;
     background-color: #fddbb7;
     border-radius: 50% / 30% 30% 30% 30%;
-    transform: rotate(65deg);
+    transform: rotate(60deg);
 }
 .finger4R {
     width: 25px;
@@ -449,3 +477,170 @@ body {
     transform: rotate(165deg);
 }
 /* right arm */
+/* left arm */
+.sleeveL {
+    width: 80px;
+    height: 115px;
+    margin-left: -100px;
+    margin-top: -110px;
+    background-color: #ffdc28;
+    border-radius: 100px / 20px 40px 120px 0px;
+    transform: rotate(70deg);
+}
+.armL {
+    width: 60px;
+    height: 120px;
+    margin-left: -15px;
+    margin-top: -145px;
+    background-color: #fddbb7;
+    border-radius: 100px / 90px 20px 50px 120px;
+    transform: rotate(70deg);
+}
+.palmL {
+    width: 74px;
+    height: 80px;
+    margin-left: 25px;
+    margin-top: -150px;
+    background-color: #fddbb7;
+    border-radius: 50% / 70% 30% 40% 40%;
+    transform: rotate(10deg);
+}
+.finger1L {
+    width: 30px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: -160px;
+    background-color: #fddbb7;
+    border-radius: 50% / 50% 60% 50% 20%;
+    transform: rotate(deg);
+}
+.finger2L {
+    width: 30px;
+    height: 40px;
+    margin-left: 53px;
+    margin-top: -165px;
+    background-color: #fddbb7;
+    border-radius: 50% / 50% 60% 50% 20%;
+    transform: rotate(10deg);
+}
+.finger3L {
+    width: 20px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: -165px;
+    background-color: #fddbb7;
+    border-radius: 50% / 50% 60% 50% 20%;
+    transform: rotate(15deg);
+}
+.fingertop3L {
+    width: 33px;
+    height: 16px;
+    margin-left: 75px;
+    margin-top: -170px;
+    background-color: #fddbb7;
+    border-radius: 50% / 20% 40% 50% 10%;
+    transform: rotate(340deg);
+}
+.finger4L {
+    width: 19px;
+    height: 30px;
+    margin-left: 95px;
+    margin-top: -155px;
+    background-color: #fddbb7;
+    border-radius: 50% / 40% 20% 0% 0%;
+    transform: rotate(45deg);
+}
+.fingertop4L {
+    width: 33px;
+    height: 17px;
+    margin-left: 105px;
+    margin-top: -160px;
+    background-color: #fddbb7;
+    border-radius: 50% / 50% 40% 100% 100%;
+    transform: rotate(345deg);
+}
+.thumbL {
+    width: 25px;
+    height: 30px;
+    margin-left: 85px;
+    margin-top: -100px;
+    background-color: #fddbb7;
+    border-radius: 50% / 50% 60% 50% 20%;
+    transform: rotate(120deg);
+}
+.thumbtopR {
+    width: 25px;
+    height: 22px;
+    margin-left: 100px;
+    margin-top: -92px;
+    background-color: #fddbb7;
+    border-radius: 50px / 0px 60px 30px 10px;
+    transform: rotate(15deg);
+}
+/* left arm */
+/* pkBall */
+.ball1 {
+    width: 130px; 
+    height: 130px;
+    margin-left: 80px;
+    margin-top: -220px;  
+    border: solid 15px #fa71f6;
+    border-color: #fa71f6;
+    border-radius: 50% / 50%;
+    transform: rotate(0deg);
+}
+.ball2 {
+    width: 90px; 
+    height: 90px;
+    margin-left: -56px;
+    margin-top: -56px;  
+    border: solid 12px #fa71f6;
+    border-color: #fa71f6;
+    border-radius: 50% / 50%;
+    transform: rotate(45deg);
+}
+.centerball {
+    width: 70px; 
+    height: 70px;
+    margin-left: -35px;
+    margin-top: -35px;  
+    background: #e5faf8;
+    border-radius: 50% / 50%;
+    transform: rotate(0deg);
+}
+.shine1 {
+    width: 250px; 
+    height: 8px;
+    margin-left: -105px;
+    margin-top: -10px;  
+    background: #cdfffe;
+    border-radius: 50% / 50%;
+    transform: rotate(350deg);
+}
+.shine2 {
+    width: 300px; 
+    height: 10px;
+    margin-left: -150px;
+    margin-top: -10px;  
+    background: #cdfffe;
+    border-radius: 50% / 80%;
+    transform: rotate(260deg);
+}
+.shine3 {
+    width: 150px; 
+    height: 10px;
+    margin-left: -73px;
+    margin-top: -10px;  
+    background: #cdfffe;
+    border-radius: 150px / 20px;
+    transform: rotate(300deg);
+}
+.shine4 {
+    width: 150px; 
+    height: 10px;
+    margin-left: -70px;
+    margin-top: -5px;  
+    background: #cdfffe;
+    border-radius: 150px / 20px;
+    transform: rotate(390deg);
+}
