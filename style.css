@@ -10,11 +10,11 @@ body {
 
 .head {
     width: 210px;
-    height: 220px;
+    height: 210px;
     margin-left: -230px;
     margin-top: -220px;
     background-color: #fddbb7;
-    border-radius: 300px / 270px 200px 190px 130px;
+    border-radius: 300px / 270px 210px 190px 130px;
     transform: rotate(195deg);
 }
 .eye1 {
@@ -139,12 +139,12 @@ body {
     transform: rotate(10deg);
 }
 .brim {
-    width: 160px;
+    width: 190px;
     height: 80px;
     margin-left: -185px;
     margin-top: -25px;
     background-color: #436ab2;
-    border-radius: 160px / 80px 50px 70px 70px;
+    border-radius: 160px / 80px 70px 0px 60px;
     transform: rotate(345deg);
 }
 .brim-inside {
@@ -161,7 +161,7 @@ body {
     width: 220px;
     height: 220px;
     margin-left: -250px;
-    margin-top: -70px;
+    margin-top: -80px;
     background-color: #ffdc28;
     border-radius: 100px / 100px 100px 30px 40px;
     transform: rotate(350deg);
@@ -242,7 +242,47 @@ body {
     margin-left: -108px;
     margin-top: 80px;
     background-color: #1e4980;
-    border-radius: 50% / 50% 50% 40% 40%;
+    border-radius: 50% / 50% 50% 40% 60%;
     transform: rotate(deg);
 }
 /* final shirt */
+/* backpack */
+.backpack {
+    width: 140px;
+    height: 180px;
+    margin-left: -295px;
+    margin-top: -40px;
+    background-color: #f8ae35;
+    border-radius: 100px / 140px 100px 20px 90px;
+    transform: rotate(5deg);
+}
+.pocket1 {
+    width: 200px; 
+    height: 100px;
+    margin-left: -98px;
+    margin-top: -105px;
+    border: solid 12px #954e0d;
+    border-color: #954e0d transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(325deg);
+}
+.pocket2 {
+    width: 10px; 
+    height: 30px;
+    margin-left: -72px;
+    margin-top: -0px;
+    background: #954e0d;
+    border-radius: 100px / 30px 150px 20px 40px;
+    transform: rotate(0deg);
+}
+
+/* arms */
+.sleeveR {
+    width: 90px;
+    height: 110px;
+    margin-left: -265px;
+    margin-top: -70px;
+    background-color: #ffdc28;
+    border-radius: 100px / 90px 120px 80px 30px;
+    transform: rotate(315deg);
+}
