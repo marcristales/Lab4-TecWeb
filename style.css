@@ -1,12 +1,49 @@
 body {
-    background-color: lightblue;
+    background-color: black;
 }
 
+/* fit stuff */
 .main div {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+.torso div {
     position: absolute;
     left: 50%;
     top: 50%;
 }
+.head div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.cap div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.pkBall div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.left-arm div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.right-arm div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.yoyo div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+/* fit stuff */
 
 .head {
     width: 210px;
@@ -18,7 +55,7 @@ body {
     transform: rotate(195deg);
 }
 .eye1 {
-    width: 18px;
+    width: 20px;
     height: 45px;
     margin-left: -10px;
     margin-top: 0px;
@@ -105,9 +142,9 @@ body {
     width: 35px;
     height: 60px;
     margin-left: -96px;
-    margin-top: -225px;
+    margin-top: -228px;
     background-color: black;
-    border-radius: 70px / 200px 200px 10px 20px;
+    border-radius: 70px / 200px 200px 10px 10px;
     transform: rotate(206deg);
 }
 .hair7 {
@@ -242,7 +279,6 @@ body {
     margin-top: 80px;
     background-color: #1e4980;
     border-radius: 50% / 50% 50% 40% 60%;
-    transform: rotate(deg);
 }
 /* final shirt */
 /* backpack */
@@ -277,22 +313,22 @@ body {
 .strap1 {
     width: 80px; 
     height: 100px;  
-    margin-left: -155px;
+    margin-left: -145px;
     margin-top: -60px;
     border: solid 20px #954e0d;
     border-color: #954e0d transparent transparent transparent;
-    border-radius: 50%/100px 100px 0 0;
+    border-radius: 30px 100px 10px 10px;
     transform: rotate(50deg);
 }
 .buckle {
     width: 15px; 
     height: 15px;  
-    margin-left: -80px;
-    margin-top: -52px;
+    margin-left: -71px;
+    margin-top: -65px;
     border: solid 5px #cec8c4;
     border-color: #cec8c4 transparent transparent transparent;
     border-radius: 50%/100px 100px 0 0;
-    transform: rotate(120deg);
+    transform: rotate(155deg);
 }
 .strap2 {
     width: 50px; 
@@ -425,10 +461,10 @@ body {
     width: 18px;
     height: 45px;
     margin-left: -53px;
-    margin-top: -13px;
+    margin-top: -8px;
     background-color: #fddbb7;
     border-radius: 50px / 40px 40px 0px 0px;
-    transform: rotate(46deg);
+    transform: rotate(50deg);
 }
 .thumbR {
     width: 25px;
@@ -436,7 +472,7 @@ body {
     margin-left: -50px;
     margin-top: 5px;
     background-color: #fddbb7;
-    border-radius: 50px / 0px 70px 0px 0px;
+    border-radius: 50px / 0px 70px 0px 40px;
     transform: rotate(130deg);
 }
 .thumbtopR {
@@ -700,16 +736,16 @@ body {
 
 /* pants */
 .pants1 {
-    width: 155px;
+    width: 150px;
     height: 75px;
     margin-left: -100px;
     margin-top: 70px;
     background-color: #3b57a5;
-    border-radius: 50px / 200px 20px 20px 200px;
+    border-radius: 50px / 100px 20px 20px 150px;
     transform: rotate(165deg);
 }
 .pants2 {
-    width: 90px;
+    width: 85px;
     height: 85px;
     margin-left: -37px;
     margin-top: 85px;
@@ -719,12 +755,12 @@ body {
 }
 .pants3 {
     width: 70px;
-    height: 105px;
-    margin-left: -49px;
-    margin-top: 115px;
+    height: 115px;
+    margin-left: -50px;
+    margin-top: 113px;
     background-color: #3b57a5;
-    border-radius: 50px / 0px 200px 200px 20px;
-    transform: rotate(60deg);
+    border-radius: 130px / 10px 120px 80px 0px;
+    transform: rotate(45deg);
 }
 .pants4 {
     width: 110px;
@@ -732,8 +768,8 @@ body {
     margin-left: -110px;
     margin-top: 122px;
     background-color: #3b57a5;
-    border-radius: 50px / 0px 200px 200px 20px;
-    transform: rotate(30deg);
+    border-radius: 50px / 0px 0px 20px 0px;
+    transform: rotate(35deg);
 }
 .pants5 {
     width: 160px;
@@ -797,6 +833,15 @@ body {
     background-color: #3b57a5;
     border-radius: 100px / 20px 0px 0px 20px;
     transform: rotate(15deg);
+}
+.pants12 {
+    width: 60px;
+    height: 65px;
+    margin-left: -110px;
+    margin-top: 200px;
+    background-color: black;
+    border-radius: 50px / 20px 0px 0px 0px;
+    transform: rotate(40deg);
 }
 .pants_shadow1 {
     width: 80px;
@@ -926,7 +971,7 @@ body {
 }
 .shoe2L{
     width: 100px;
-    height: 90px;
+    height: 89px;
     margin-left: 110px;
     margin-top: 103px;
     background-color: #fe1a1b;
@@ -991,7 +1036,7 @@ body {
     width: 10px;
     height: 20px;
     margin-left: 136px;
-    margin-top: 130px;
+    margin-top: 135px;
     background-color: #ffffff;
     border-radius: 100px / 100px 100px 100px 70px;
     transform: rotate(160deg);
@@ -1000,7 +1045,7 @@ body {
     width: 5px;
     height: 12px;
     margin-left: 139px;
-    margin-top: 135px;
+    margin-top: 138px;
     background-color: #fe1a1b;
     border-radius: 100px / 100px 100px 100px 70px;
     transform: rotate(160deg);
@@ -1031,4 +1076,220 @@ body {
     background-color: #ffffff;
     border-radius: 100px / 100px 100px 100px 70px;
     transform: rotate(110deg);
+}
+.fingerLoop {
+    width: 15px;
+    height: 19px;
+    margin-left: -63px;
+    margin-top: 16px;
+    background-color: #ab735a;
+    border-radius: 80%;
+    transform: rotate(330deg);
+}
+.fingerLoop2 {
+    width: 15px;
+    height: 17px;
+    margin-left: -61px;
+    margin-top: 15px;
+    background-color: #fddbb7;
+    border-radius: 80%;
+    transform: rotate(330deg);
+}
+.rope {
+    width: 10px;
+    height: 400px;
+    margin-left: 62px;
+    margin-top: -25px;
+    background-color: #ab735a;
+    border-radius: 30px 20px 0px 0px;
+    transform: rotate(320deg);
+}
+.yoyobottom {
+    width: 220px;
+    height: 145px;
+    margin-left: 160px;
+    margin-top: 230px;
+    background-color: #e1e0de;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoLoop {
+    width: 210px;
+    height: 130px;
+    margin-left: 160px;
+    margin-top: 230px;
+    background-color: #ab735a;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyotop {
+    width: 220px;
+    height: 140px;
+    margin-left: 145px;
+    margin-top: 210px;
+    background-color: #e1e0de;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoDesign {
+    width: 190px;
+    height: 100px;
+    margin-left: 153px;
+    margin-top: 220px;
+    background-color: #45d651;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoDesign2 {
+    width: 160px;
+    height: 85px;
+    margin-left: 167px;
+    margin-top: 225px;
+    background: #212121;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoDesign3 {
+    width: 140px;
+    height: 70px;
+    margin-left: 175px;
+    margin-top: 228px;
+    background: #45d651;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoDesign4 {
+    width: 120px;
+    height: 60px;
+    margin-left: 182px;
+    margin-top: 231px;
+    background: #212121;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoDesign5 {
+    width: 95px;
+    height: 40px;
+    margin-left: 192px;
+    margin-top: 235px;
+    background: #45d651;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoDesign6 {
+    width: 20px;
+    height: 30px;
+    margin-left: 276px;
+    margin-top: 230px;
+    background: #45d651;
+    border-radius: 10px 0px 0px 10px;
+    transform: rotate(265deg);
+}
+.yoyoDesign7 {
+    width: 20px;
+    height: 30px;
+    margin-left: 225px;
+    margin-top: 270px;
+    background: #45d651;
+    border-radius: 10px 0px 0px 10px;
+    transform: rotate(165deg);
+}
+.yoyoDesign8 {
+    width: 70px;
+    height: 30px;
+    margin-left: 226px;
+    margin-top: 255px;
+    background: #45d651;
+    border-radius: 10px 10px 0px 0px;
+    transform: rotate(143deg);
+}
+.yoyoS1 {
+    width: 70px;
+    height: 35px;
+    margin-left: 204px;
+    margin-top: 238px;
+    background: #212121;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoS2 {
+    width: 55px;
+    height: 25px;
+    margin-left: 211px;
+    margin-top: 241px;
+    background: #45d651;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoS3 {
+    width: 40px;
+    height: 20px;
+    margin-left: 218px;
+    margin-top: 250px;
+    background: #212121;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoS4 {
+    width: 36px;
+    height: 19px;
+    margin-left: 213px;
+    margin-top: 250px;
+    background: #45d651;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoS5 {
+    width: 40px;
+    height: 17px;
+    margin-left: 218px;
+    margin-top: 240px;
+    background: #212121;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+.yoyoS6 {
+    width: 38px;
+    height: 19px;
+    margin-left: 227px;
+    margin-top: 238px;
+    background: #45d651;
+    border-radius: 50%;
+    transform: rotate(335deg);
+}
+.yoyoS7 {
+    width: 23px;
+    height: 19px;
+    margin-left: 238px;
+    margin-top: 244px;
+    background: #212121;
+    border-radius: 50%;
+    transform: rotate(335deg);
+}
+.yoyoS8 {
+    width: 28px;
+    height: 15px;
+    margin-left: 224px;
+    margin-top: 251px;
+    background: #45d651;
+    border-radius: 50%;
+    transform: rotate(324deg);
+}
+.yoyoS9 {
+    width: 20px;
+    height: 18px;
+    margin-left: 217px;
+    margin-top: 247px;
+    background: #212121;
+    border-radius: 50%;
+    transform: rotate(335deg);
+}
+.yoyoS10 {
+    width: 16px;
+    height: 10px;
+    margin-left: 227px;
+    margin-top: 245px;
+    background: #45d651;
+    border-radius: 50%;
+    transform: rotate(320deg);
 }
