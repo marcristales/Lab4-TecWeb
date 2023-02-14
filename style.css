@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(211, 217, 241);
 }
 
 /* fit stuff */
@@ -839,7 +839,7 @@ body {
     height: 65px;
     margin-left: -110px;
     margin-top: 200px;
-    background-color: black;
+    background-color: rgb(211, 217, 241);
     border-radius: 50px / 20px 0px 0px 0px;
     transform: rotate(40deg);
 }
@@ -897,7 +897,7 @@ body {
     border-radius: 60px 70px 90px 100px;
     transform: rotate(170deg);
 }
-.sole1R {
+.shoeR + .sole1R {
     width: 166px;
     height: 55px;
     margin-left: -239px;
@@ -1136,7 +1136,7 @@ body {
     height: 100px;
     margin-left: 153px;
     margin-top: 220px;
-    background-color: #45d651;
+    background-color: #43d94d;
     border-radius: 50%;
     transform: rotate(330deg);
 }
@@ -1154,7 +1154,7 @@ body {
     height: 70px;
     margin-left: 175px;
     margin-top: 228px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 50%;
     transform: rotate(330deg);
 }
@@ -1172,7 +1172,7 @@ body {
     height: 40px;
     margin-left: 192px;
     margin-top: 235px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 50%;
     transform: rotate(330deg);
 }
@@ -1181,7 +1181,7 @@ body {
     height: 30px;
     margin-left: 276px;
     margin-top: 230px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 10px 0px 0px 10px;
     transform: rotate(265deg);
 }
@@ -1190,7 +1190,7 @@ body {
     height: 30px;
     margin-left: 225px;
     margin-top: 270px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 10px 0px 0px 10px;
     transform: rotate(165deg);
 }
@@ -1199,7 +1199,7 @@ body {
     height: 30px;
     margin-left: 226px;
     margin-top: 255px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 10px 10px 0px 0px;
     transform: rotate(143deg);
 }
@@ -1217,7 +1217,7 @@ body {
     height: 25px;
     margin-left: 211px;
     margin-top: 241px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 50%;
     transform: rotate(330deg);
 }
@@ -1235,7 +1235,7 @@ body {
     height: 19px;
     margin-left: 213px;
     margin-top: 250px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 50%;
     transform: rotate(330deg);
 }
@@ -1253,7 +1253,7 @@ body {
     height: 19px;
     margin-left: 227px;
     margin-top: 238px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 50%;
     transform: rotate(335deg);
 }
@@ -1271,7 +1271,7 @@ body {
     height: 15px;
     margin-left: 224px;
     margin-top: 251px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 50%;
     transform: rotate(324deg);
 }
@@ -1289,7 +1289,7 @@ body {
     height: 10px;
     margin-left: 227px;
     margin-top: 245px;
-    background: #45d651;
+    background: #43d94d;
     border-radius: 50%;
     transform: rotate(320deg);
 }
